@@ -37,11 +37,11 @@ const Navbar = () => {
       <div className="container mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="group flex items-center gap-3">
-        <div className="w-10 h-10 rounded-lg overflow-hidden flex items-center justify-center bg-background">
+        <div className="w-10 h-10 rounded-lg overflow-hidden flex items-center justify-center">
           <img
             src={logo}
             alt="Yassir Logo"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
           />
         </div>
           <span className="hidden sm:block font-display font-semibold text-lg tracking-tight">Yassir<span className="text-primary">.H</span>
